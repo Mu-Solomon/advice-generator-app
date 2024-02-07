@@ -32,7 +32,7 @@ Screenshot of the desktop view.
 ### Links
 
 - Solution URL: [Solution URL here](https://www.frontendmentor.io/solutions/advice-generator-app-_IubDBrwQR)
-- Live Site URL: [Live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live site URL here](https://lisquote.netlify.app/)
 
 ## My process
 
@@ -53,7 +53,6 @@ Screenshot of the desktop view.
 - Creating the dice to be divided in the middle was indeed a challenge, I took a some time to brainstorm it out
 
 ```js
-<h1>Some js code I'm proud of</h1>
 
 {advice?.slip.advice.length >= 88 ? (
           <p className="text-[#cee3e9]  text-[24px] font-extrabold text-center px-6 md:px-10 w-full h-[200px] sm:h-[100px] md:leading-8 ">
