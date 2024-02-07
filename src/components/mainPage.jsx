@@ -18,8 +18,6 @@ const MainPage = async () => {
   const advice = await getAdvice();
 
   console.log(advice);
-  const text =
-    "“When having a clear out, ask yourself if an item has any financial, practical or sentimental value. If not, chuck it.”";
   return (
     <div
       className="flex flex-col items-center justify-center gap-5 bg-[#323a49] w-11/12 rounded-lg h-[370px] sm:h-[300px] sm:py-20 pt-16 pb-10 sm:w-[500px]"
@@ -37,7 +35,7 @@ const MainPage = async () => {
           </p>
         ) : (
           <p className="text-[#cee3e9]  text-[28px] font-extrabold text-center px-6 md:px-10 w-full h-[200px] sm:h-[100px] md:leading-8 ">
-            “ {advice?.slip.advice}”
+            “{advice?.slip.advice}”
           </p>
         )}
       </div>
