@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       </head>
       <body className="bg-[#1f2632] min-h-screen flex flex-col items-center justify-center w-screen">
         {children}{" "}
-        <h2 className="text-[#52ffa8] tracking-[5px] text-xs font-extrabold absolute bottom-2">
+        <h2 className="text-[#52ffa8] tracking-[5px] text-xs font-extrabold absolute bottom-0 sm:bottom-2">
           SOLOMON MUYONJO
         </h2>
       </body>
