@@ -2,8 +2,9 @@ import "./globals.css";
 import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
-  title: "Quote app",
-  description: "Quote app from front-end mentor created in Nextjs",
+  title: "Advice app",
+  description:
+    "Advice app from front-end mentor by Muyonjo Solomon created in Nextjs",
 };
 
 export default function RootLayout({ children }) {
